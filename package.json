@@ -1,17 +1,23 @@
 {
-  "name": "",
+  "name": "proxyRepoShemal",
   "version": "",
-  "description": "",
-  "author": "",
+  "description": "Proxy Repo for FEC project",
+  "author": "Shemal Shah",
   "license": "",
+  "proxy": "localhost:2729",
   "engines": {
     "node": ">=6.13.0"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "path": "^0.12.7"
   },
   "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor",
+    "http-proxy-middleware": "^1.0.3"
   }
 }
