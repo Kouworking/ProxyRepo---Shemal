@@ -6,4 +6,4 @@ const bodyParser = require('body-parser');
 app.use(express.static(__dirname + '/../client'));
 
 
-app.listen(2700, () => console.log('Listening'));
+app.listen(2700, () => console.log('Listening on port 2700'));
